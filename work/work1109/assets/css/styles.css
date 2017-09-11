@@ -1,0 +1,67 @@
+H1 {
+    color: #2b59b6;
+    font-family: 'Poiret One', cursive;
+    text-align: center
+}
+
+H2 {
+    text-align: center
+}
+
+img {
+    margin-left: 20px;
+    border: 3px solid #2b59b6;
+
+}
+
+P {
+    padding-left: 20px;
+}
+
+div {
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 20px;
+    text-align: justify
+}
+
+#div1 {
+    border: 3px solid #2b59b6;
+    background: #bcd0f8;
+
+}
+
+#div2 {
+    border: 3px dotted #2bb68d;
+    background: #d4efe7;
+
+}
+
+#div3 {
+    border: 3px groove #e14e5c;
+    background: #ead0d3;
+
+}
+
+#div4 {
+    border: 3px outset #d672e5;
+    background: #dac6dd;
+
+}
+
+#div5 {
+    border: 3px double #54ca52;
+    background: #bcd8bb;
+
+}
+
+#div6 {
+    border: 3px dashed #d7cf4a;
+    background: #e8e5bd;
+
+}
+
+#div6 {
+    border: 3px dashed #d7cf4a;
+    background: #e8e5bd;
+
+}
