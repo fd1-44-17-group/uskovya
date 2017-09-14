@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf8">
+  <title>Доска</title>
+  <!--<link rel="stylesheet" href="assets/css/styles.css">-->
+  
+</head>
+
+<body>
+ <style>
+    table.CHESS {
+      border-collapse: collapse;
+    }
+
+    table.CHESS td {
+      width: 50px;
+      height: 50px;
+      border: solid black 1px;
+      text-align: center;
+    }
+
+    td.black {
+      background: gray;
+    }
+
+
+    .ch {
+      background-image: url(chess.png);
+      background-repeat: no-repeat;
+      width: 45px;
+      height: 45px;
+
+    }
+
+    .bl {
+      background-position-y: 0px;
+    }
+
+    .wh {
+      background-position-y: -52px;
+    }
+
+    .pesh {
+      background-position-x: -262px;
+    }
+
+    .lad {
+      background-position-x: -102px;
+    }
+
+    .hor {
+
+      background-position-x: -210px;
+    }
+
+    .off {
+      background-position-x: -155px;
+
+    }
+
+    .king {
+      background-position-x: 5px;
+
+    }
+
+    .cir {
+      background-position-x: -48px;
+
+    }
+  </style>
+
+  <table class='CHESS'>
+    <tr>
+      <td></td>
+      <td>a</td>
+      <td>b</td>
+      <td>c</td>
+      <td>d</td>
+      <td>e</td>
+      <td>f</td>
+      <td>g</td>
+      <td>h</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>
+        <div class='ch bl lad'></div>
+      </td>
+      <td class='black'>
+        <div class='ch bl hor'></div>
+      </td>
+      <td>
+        <div class='ch bl off'></div>
+      </td>
+      <td class='black'>
+        <div class='ch bl cir'></div>
+      </td>
+      <td>
+        <div class='ch bl king'></div>
+      </td>
+      <td class='black'>
+        <div class='ch bl off'></div>
+      </td>
+      <td>
+        <div class='ch bl hor'></div>
+      </td>
+      <td class='black' td>
+        <div class='ch bl lad'></div>
+      </td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td class='black'>
+        <div class='ch bl pesh'></div>
+      </td>
+      <td>
+        <div class='ch bl pesh'></div>
+      </td>
+      <td class='black'>
+        <div class='ch bl pesh'></div>
+      </td>
+      <td>
+        <div class='ch bl pesh'></div>
+      </td>
+      <td class='black'>
+        <div class='ch bl pesh'></div>
+      </td>
+      <td>
+        <div class='ch bl pesh'></div>
+      </td>
+      <td class='black'>
+        <div class='ch bl pesh'></div>
+      </td>
+      <td>
+        <div class='ch bl pesh'></div>
+      </td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td></td>
+      <td class='black'></td>
+      <td></td>
+      <td class='black'></td>
+      <td></td>
+      <td class='black'></td>
+      <td></td>
+      <td class='black' td></td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td class='black'></td>
+      <td></td>
+      <td class='black'></td>
+      <td></td>
+      <td class='black'></td>
+      <td></td>
+      <td class='black'></td>
+      <td></td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td></td>
+      <td class='black'></td>
+      <td></td>
+      <td class='black'></td>
+      <td></td>
+      <td class='black'></td>
+      <td></td>
+      <td class='black' td></td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td class='black'></td>
+      <td></td>
+      <td class='black'></td>
+      <td></td>
+      <td class='black'></td>
+      <td></td>
+      <td class='black'></td>
+      <td></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>
+        <div class='ch wh pesh'></div>
+      </td>
+      <td class='black'>
+        <div class='ch wh pesh'></div>
+      </td>
+      <td>
+        <div class='ch wh pesh'></div>
+      </td>
+      <td class='black'>
+        <div class='ch wh pesh'></div>
+      </td>
+      <td>
+        <div class='ch wh pesh'></div>
+      </td>
+      <td class='black'>
+        <div class='ch wh pesh'></div>
+      </td>
+      <td>
+        <div class='ch wh pesh'></div>
+      </td>
+      <td class='black' td>
+        <div class='ch wh pesh'></div>
+      </td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td class='black'>
+        <div class='ch wh lad'></div>
+      </td>
+      <td>
+        <div class='ch wh hor'></div>
+      </td>
+      <td class='black'>
+        <div class='ch wh off'></div>
+      </td>
+      <td>
+        <div class='ch wh cir'></div>
+      </td>
+      <td class='black'>
+        <div class='ch wh king'></div>
+      </td>
+      <td>
+        <div class='ch wh off'></div>
+      </td>
+      <td class='black'>
+        <div class='ch wh hor'></div>
+      </td>
+      <td>
+        <div class='ch wh lad'></div>
+      </td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>a</td>
+      <td>b</td>
+      <td>c</td>
+      <td>d</td>
+      <td>e</td>
+      <td>f</td>
+      <td>g</td>
+      <td>h</td>
+      <td></td>
+    </tr>
+  </table>
+
+</body>
+
+</html>
