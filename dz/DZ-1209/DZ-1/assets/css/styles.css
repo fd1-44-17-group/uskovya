@@ -1,0 +1,44 @@
+td {
+  display:block;
+  float:left;
+  /*border: solid 1px;*/
+}
+
+/*2 строка*/  
+
+._2-2 { margin-right: -20px;
+  margin-left: 11px;}
+
+
+/*3 строка*/    
+
+._1-3 {margin-right: -21px;
+  margin-left: 13px;}
+._3-3 {margin-left:10px;}
+  
+
+/*4 строка*/  
+
+._1-4 {margin-right: -30px;
+  margin-left: 22px;}
+
+  
+/*5 строка*/  
+
+._1-5 {margin-left: 10px;
+    margin-right: -10px;
+  }
+._2-5 {margin-left: 10px;
+margin-right: -10px;
+  }
+._3-5 {margin-left: -20px;}
+
+
+/*6 строка*/  
+
+._1-6 {margin-left: 22px;
+     }
+._2-6 {margin-left: -20px;
+  }
+._3-6 {margin-left: -33px;
+}

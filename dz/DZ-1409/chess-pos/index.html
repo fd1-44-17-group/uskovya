@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf8">
+    <title></title>
+    <!--<link rel="stylesheet" href="assets/css/styles.css">-->
+
+</head>
+
+<body>
+<style>
+    p {
+    text-align: center;
+    padding: 5px ;
+}
+
+.board {
+    
+    width:620px;
+    height:620px;
+    
+}
+
+._1 {
+    
+    width: 60px;
+    height: 60px;
+    border: solid black 1px;
+    float:left;
+        }
+
+.black
+  {
+    background: gray;
+  }
+
+
+.ch {
+    background-image: url(chess.png);
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 45px;
+}
+
+.bl {
+      background-position-y: 0px;
+    }
+
+.wh {
+      background-position-y: -52px;
+    }    
+ 
+
+.pesh {
+    background-position-x: -262px;
+    position: absolute;
+    top: 140px;
+    left: 77px;
+    }
+.pesh2 {
+    background-position-x: -262px;
+    position: absolute;
+    top: 140px;
+    left: 140px;
+    }
+.pesh3 {
+    background-position-x: -262px;
+    position: absolute;
+    top: 140px;
+    left: 200px;
+    }
+.pesh4 {
+    background-position-x: -262px;
+    position: absolute;
+    top: 140px;
+    left: 263px;
+    }
+.pesh5 {
+    background-position-x: -262px;
+    position: absolute;
+    top: 140px;
+    left: 325px;
+    }
+.pesh6 {
+    background-position-x: -262px;
+    position: absolute;
+    top: 140px;
+    left: 387px;
+    }
+.pesh7 {
+    background-position-x: -262px;
+    position: absolute;
+    top: 140px;
+    left: 446px;
+    }
+.pesh8 {
+    background-position-x: -262px;
+    position: absolute;
+    top: 140px;
+    left: 510px;
+    }
+    
+
+.peshw {
+    background-position-x: -262px;
+    position: absolute;
+    top: 450px;
+    left: 77px;
+    }
+.peshw2 {
+    background-position-x: -262px;
+    position: absolute;
+    top: 450px;
+    left: 140px;
+    }
+.peshw3 {
+    background-position-x: -262px;
+    position: absolute;
+    top: 450px;
+    left: 200px;
+    }
+.peshw4 {
+    background-position-x: -262px;
+    position: absolute;
+    top: 450px;
+    left: 263px;
+    }
+.peshw5 {
+    background-position-x: -262px;
+    position: absolute;
+    top: 450px;
+    left: 325px;
+    }
+.peshw6 {
+    background-position-x: -262px;
+    position: absolute;
+    top: 450px;
+    left: 387px;
+    }
+.peshw7 {
+    background-position-x: -262px;
+    position: absolute;
+    top: 450px;
+    left: 446px;
+    }
+.peshw8 {
+    background-position-x: -262px;
+    position: absolute;
+    top: 450px;
+    left: 510px;
+    }    
+    
+.ladb1 {
+ background-position-x: -102px;   
+ position: absolute;
+ top: 80px;
+ left: 510px;   
+}    
+.ladb2 {
+ background-position-x: -102px;   
+ position: absolute;
+ top: 80px;
+ left: 75px;   
+}  
+
+.ladw1 {
+   background-position-x: -102px;   
+ position: absolute;
+ top: 515px;
+ left: 75px;  
+    
+}
+
+.ladw2 {
+    background-position-x: -102px;   
+ position: absolute;
+ top: 515px;
+ left: 510px; 
+    
+}
+
+.horb1 {
+    
+   background-position-x: -210px;
+   position: absolute;
+ top: 80px;
+ left: 140px;
+  }
+  
+.horb2 {
+    
+   background-position-x: -210px;
+   position: absolute;
+ top: 80px;
+ left: 450px;
+  }
+  
+.horw1 {
+   background-position-x: -210px;
+   position: absolute;
+ top: 515px;
+ left: 450px; 
+  }
+  
+.horw2 {
+    
+   background-position-x: -210px;
+   position: absolute;
+ top: 515px;
+ left: 140px; 
+  }  
+  
+.offb1 {
+    background-position-x: -155px;
+    position: absolute;
+ top: 80px;
+ left: 200px;
+  }  
+  
+.offb2 {
+    background-position-x: -155px;
+    position: absolute;
+ top: 80px;
+ left: 386px;
+  }  
+
+.offw1 {
+    background-position-x: -155px;
+    position: absolute;
+ top: 515px;
+ left: 386px;
+  }  
+
+.offw2 {
+    background-position-x: -155px;
+    position: absolute;
+ top: 515px;
+ left: 200px;
+  }
+  
+.kingb {
+    background-position-x: 5px;
+    position: absolute;
+ top: 80px;
+ left: 323px;
+  }
+  
+  .cirb {
+    background-position-x: -48px;
+    position: absolute;
+ top: 80px;
+ left: 263px;
+  }
+  
+.kingw {
+    background-position-x: 5px;
+    position: absolute;
+ top: 515px;
+ left: 325px;
+  }
+  
+  .cirw {
+    background-position-x: -48px;
+    position: absolute;
+ top: 515px;
+ left: 260px;
+  }  
+  
+  
+  
+  
+    
+</style>
+
+<!-- Черные пешки -->
+    <div class='ch pesh bl'></div>
+    <div class='ch pesh2 bl'></div>
+    <div class='ch pesh3 bl'></div>
+    <div class='ch pesh4 bl'></div>
+    <div class='ch pesh5 bl'></div>
+    <div class='ch pesh6 bl'></div>
+    <div class='ch pesh7 bl'></div>
+    <div class='ch pesh8 bl'></div>
+    
+<!-- Белые пешки -->    
+    
+    <div class='ch peshw wh'></div>
+    <div class='ch peshw2 wh'></div>
+    <div class='ch peshw3 wh'></div>
+    <div class='ch peshw4 wh'></div>
+    <div class='ch peshw5 wh'></div>
+    <div class='ch peshw6 wh'></div>
+    <div class='ch peshw7 wh'></div>
+    <div class='ch peshw8 wh'></div>
+    
+<!-- Белые фигуры -->   
+    <div class='ch ladb1 bl'></div>
+    <div class='ch ladb2 bl'></div>
+    <div class='ch horb1 bl'></div>
+    <div class='ch horb2 bl'></div>
+    <div class='ch offb1 bl'></div>
+    <div class='ch offb2 bl'></div>
+    <div class='ch kingb bl'></div>
+    <div class='ch cirb bl'></div>
+
+<!-- Черные фигуры --> 
+    <div class='ch ladw1 wh'></div>
+    <div class='ch ladw2 wh'></div>
+    <div class='ch horw1 wh'></div>
+    <div class='ch horw2 wh'></div>
+    <div class='ch offw1 wh'></div>
+    <div class='ch offw2 wh'></div>
+    <div class='ch kingw wh'></div>
+    <div class='ch cirw wh'></div>
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class='board'>
+
+        <!-- 1 ряд -->
+        <div class='_1'></div>
+        <div class='_1'><p>a</p></div>
+        <div class='_1'><p>b</p></div>
+        <div class='_1'><p>c</p></div>
+        <div class='_1'><p>d</p></div>
+        <div class='_1'><p>e</p></div>
+        <div class='_1'><p>f</p></div>
+        <div class='_1'><p>g</p></div>
+        <div class='_1'><p>h</p></div>
+        <div class='_1'></div>
+
+        <!-- 2 ряд -->
+        <div class='_1'><p>8</p></div>
+        <div class='_1'></div>
+        <div class='_1 black'></div>
+        <div class='_1'></div>
+        <div class='_1 black'></div>
+        <div class='_1'></div>
+        <div class='_1 black'></div>
+        <div class='_1'></div>
+        <div class='_1 black'></div>
+        <div class='_1'><p>8</p></div>
+
+        <!-- 3 ряд -->
+        <div class='_1'><p>7</p></div>
+        <div class='_1 black'></div>
+        <div class='_1'></div>
+        <div class='_1 black'></div>
+        <div class='_1'></div>
+        <div class='_1 black'></div>
+        <div class='_1'></div>
+        <div class='_1 black'></div>
+        <div class='_1'></div>
+        <div class='_1'><p>7</p></div>
+
+        <!-- 4 ряд -->
+        <div class='_1'><p>6</p></div>
+        <div class='_1'></div>
+        <div class='_1 black'></div>
+        <div class='_1'></div>
+        <div class='_1 black'></div>
+        <div class='_1'></div>
+        <div class='_1 black'></div>
+        <div class='_1'></div>
+        <div class='_1 black'></div>
+        <div class='_1'><p>6</p></div>
+
+        <!-- 5 ряд -->
+        <div class='_1'><p>5</p></div>
+        <div class='_1 black'></div>
+        <div class='_1'></div>
+        <div class='_1 black'></div>
+        <div class='_1'></div>
+        <div class='_1 black'></div>
+        <div class='_1'></div>
+        <div class='_1 black'></div>
+        <div class='_1'></div>
+        <div class='_1'><p>5</p></div>
+
+        <!-- 6 ряд -->
+        <div class='_1'><p>4</p></div>
+        <div class='_1'></div>
+        <div class='_1 black'></div>
+        <div class='_1'></div>
+        <div class='_1 black'></div>
+        <div class='_1'></div>
+        <div class='_1 black'></div>
+        <div class='_1'></div>
+        <div class='_1 black'></div>
+        <div class='_1'><p>4</p></div>
+
+        <!-- 7 ряд -->
+        <div class='_1'><p>3</p></div>
+        <div class='_1 black'></div>
+        <div class='_1'></div>
+        <div class='_1 black'></div>
+        <div class='_1'></div>
+        <div class='_1 black'></div>
+        <div class='_1'></div>
+        <div class='_1 black'></div>
+        <div class='_1'></div>
+        <div class='_1'><p>3</p></div>
+
+        <!-- 8 ряд -->
+        <div class='_1'><p>2</p></div>
+        <div class='_1'></div>
+        <div class='_1 black'></div>
+        <div class='_1'></div>
+        <div class='_1 black'></div>
+        <div class='_1'></div>
+        <div class='_1 black'></div>
+        <div class='_1'></div>
+        <div class='_1 black'></div>
+        <div class='_1'><p>2</p></div>
+
+        <!-- 9 ряд -->
+        <div class='_1'><p>1</p></div>
+        <div class='_1 black'></div>
+        <div class='_1'></div>
+        <div class='_1 black'></div>
+        <div class='_1'></div>
+        <div class='_1 black'></div>
+        <div class='_1'></div>
+        <div class='_1 black'></div>
+        <div class='_1'></div>
+        <div class='_1'><p>1</p></div>
+
+        <!-- 10 ряд -->
+        <div class='_1'></div>
+        <div class='_1'>
+            <p>a</p>
+        </div>
+        <div class='_1'>
+            <p>b</p>
+        </div>
+        <div class='_1'>
+            <p>c</p>
+        </div>
+        <div class='_1'>
+            <p>d</p>
+        </div>
+        <div class='_1'><p>e</p></div>
+        <div class='_1'><p>f</p></div>
+        <div class='_1'><p>g</p></div>
+        <div class='_1'><p>h</p></div>
+        <div class='_1'></div>
+
+
+
+    </div>
+
+</body>
