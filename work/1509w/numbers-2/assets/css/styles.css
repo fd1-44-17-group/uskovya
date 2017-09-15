@@ -1,0 +1,38 @@
+.strl {
+    float:left;
+    columns: 50px auto;
+    
+    }
+    
+    
+    
+.cl {clear: both}
+
+/*Вторая строка*/
+
+._2-3 {
+    margin-left: -50px;
+
+}
+._2-2 {
+    margin-left: 50px;
+}
+
+
+/*Третья строка*/
+
+._3-1 {
+    margin-left: 50px;
+    margin-right: -50px;}
+
+._3-2 {
+    margin-left: -50px;
+}
+
+/*Четвертая строка*/
+
+._4-1 {margin-left: 0px
+  margin-right: 0px;
+}
+._4-2 {}
+._4-3 {}
