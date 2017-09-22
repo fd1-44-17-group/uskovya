@@ -1,0 +1,44 @@
+.strl {
+    float:left;
+    column: 50px auto;
+    
+    }
+    
+    
+    
+.cl {clear: both}
+
+/*Вторая строка*/
+
+._2-2 {margin-left: 15px;}
+._2-3 {margin-left: -20px;}
+
+
+/*Третья строка*/
+
+._3-1 {margin-left: 10px;
+    margin-right: -10px;}
+._3-2 {margin-left: -10px;}
+._3-3 {margin-left: -10px;}
+
+/*Четвертая строка*/
+
+._4-1 {margin-left: 25px;
+    margin-right: -25px;
+}
+._4-2 {margin-left: -10px;}
+._4-3 {margin-left: -20px;}
+
+/*Пятая строка*/
+
+._5-1 {margin-left: 10px;
+    margin-right: -10px;
+}._5-2 {margin-left: 15px;}
+._5-3 {margin-left: -30px;}
+
+/*Шестая строка*/
+
+._6-1 {margin-left: 20px;
+    margin-right: -30px;}
+._6-2 {margin-left: 4px;}
+._6-3 {margin-left: -30px;}
