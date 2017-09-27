@@ -1,0 +1,34 @@
+p {
+font-family:Helvetica, Geneva, sans-serif;
+line-height: 25px;
+font-size: 11pt;}
+
+.str1 {
+    border: solid #e8ebef 0.5px;
+    background-color: #f4f4f4;  
+    padding: 5px;
+    font-size: 10pt;
+    font-family: helvetica;
+}
+
+span {
+    border: solid #e8ebef 0.5px;
+    background-color: #f4f4f4;  
+    padding: 5px;
+    font-size: 10pt;
+    font-family: helvetica;
+}
+
+.scroll {
+    overflow: scroll;
+    border: solid #e8ebef 0.5px;
+    background-color: #f4f4f4;  
+    padding: 5px;
+    font-size: 10pt;
+    font-family: helvetica;
+    
+}
+
+.bold {
+    font-weight: bold
+}
