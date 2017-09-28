@@ -21,9 +21,21 @@ font-size: 11pt;}
     overflow: scroll;
     white-space: pre;
     
-    
 }
 
 .bold {
     font-weight: bold
 }
+
+.r {
+    color:red;
+}
+
+.g {
+    color: #88e29a;
+}
+
+.bl {
+    color: #88ace2;}
+    
+.cur {font-style: italic}
