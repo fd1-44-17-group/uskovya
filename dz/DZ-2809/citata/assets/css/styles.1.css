@@ -1,0 +1,59 @@
+div {
+    font-family: helvetica;
+    font-size: 10pt;
+    color: #707070;
+    font-style: italic
+}
+
+
+.obl {
+    transform: translatex(60px);
+    border-radius: 10px;
+    border: solid #ebebeb 1px;
+    background-color: #ebebeb;
+    width: 220px;
+    height: 70px;
+    display: block;
+    text-align: center;
+
+}
+
+.new {
+    transform: skewX(47deg) translatex(316px) translateY(-42px);
+    background-color: #ebebeb;
+    width: 20px;
+    height: 20px;
+    display: block;
+
+}
+
+
+.photo {
+    background-image: url('../img/lenin.png');
+    width: 150px;
+    height: 170px;
+    background-repeat: no-repeat;
+    border: solid #ebebeb 1px;
+    margin-bottom: -15px;
+}
+
+.text {
+    text-align: center;
+    display: block;
+    width: 150px;
+    height: 30px;
+    border-bottom: solid #ebebeb 1px;
+    border-left: solid #ebebeb 1px;
+    border-right: solid #ebebeb 1px;
+    padding-top: 5px;
+
+
+}
+
+.trans {
+    transform: translatex(230px) translateY(90px) rotate(10deg);
+}
+
+.dia {
+    transform: translatex(-30px) translateY(-90px);
+}
