@@ -1,0 +1,26 @@
+    p {
+    text-align: center;
+    padding: 5px ;
+}
+
+.board {
+    
+    width:620px;
+    height:620px;
+    
+}
+
+._1 {
+    
+    width: 60px;
+    height: 60px;
+    border: solid black 1px;
+    float:left;
+        }
+        
+
+.black
+  {
+    background: gray;
+  }
+
