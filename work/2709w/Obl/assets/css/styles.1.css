@@ -1,0 +1,24 @@
+
+
+
+.obl:after {
+    transform: translatex(60px);
+    border-radius: 30px;
+    border: dotted red 5px;
+    background-color: #f4f4f4;  
+    width: 200px;
+    height: 100px;
+    display: block;
+    content:'';
+}
+
+.new:after {
+    transform: skewX(-47deg) translatex(0px) translateY(-45px);
+    border-left: 5px dotted red;
+    border-bottom:  5px dotted red;
+    background-color: #f4f4f4;  
+    width: 20px;
+    height: 20px;
+    display: block;
+    content:'';
+}
