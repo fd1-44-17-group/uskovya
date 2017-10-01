@@ -1,0 +1,150 @@
+body {
+    background-color: #E9E9E9
+}
+
+td {
+    font-family: Arial;
+    font-size: 10pt;
+    color: #59357E;
+
+}
+
+table {
+    border-spacing: 7px 2px;
+    width: 100%;
+}
+
+.bord {
+    border-top: solid 1px #CABADC;
+
+}
+
+.bord2 {
+    padding-top: 4px;
+
+}
+
+.fo {
+    color: white;
+    font-family: monospace;
+    font-size: 18pt;
+    text-align: center;
+    font-family: Oswald;
+    position: absolute;
+    top: -20px;
+    left: 20px;
+
+}
+
+.font {
+    position: absolute;
+    width: 290px;
+    height: 45px;
+    background-color: #AFAFAF;
+    top: 30px;
+    left: 30px;
+    display: block;
+}
+
+.licenses {
+
+    position: absolute;
+    display: block;
+    width: 140px;
+    height: 140px;
+    top: 90px;
+    left: 30px;
+
+}
+
+.familysize {
+
+    position: absolute;
+    display: block;
+    width: 140px;
+    height: 140px;
+    top: 90px;
+    left: 180px;
+
+}
+
+.downloads {
+
+    position: absolute;
+    display: block;
+    width: 140px;
+    height: 140px;
+    top: 240px;
+    left: 30px;
+
+}
+
+.sortby {
+
+    position: absolute;
+    display: block;
+    width: 140px;
+    height: 140px;
+    top: 240px;
+    left: 180px;
+
+}
+
+.zag {
+    font-family: Arial;
+    font-weight: bolder;
+    color: black;
+
+
+}
+
+.blockv {
+    position: absolute;
+    display: block;
+    background-color: #A578D2;
+    width: 100px;
+    height: 22px;
+    border-radius: 5px;
+    z-index: -10;
+
+}
+
+._1 {
+    top: 109px;
+    left: 185px;
+}
+
+._2 {
+    top: 258px;
+    left: 185px;
+}
+
+._3 {
+    top: 258px;
+    left: 35px;
+}
+
+.s {
+    padding-left: 10px;
+}
+
+.w {
+    color: white;
+}
+
+.b {
+    font-weight: bold
+}
+
+.qwe {
+    width: 13px;
+    height: 13px;
+    background-color: #59357E;
+    font-size: 9pt;
+    text-align: center;
+    border-radius: 4px;
+    position: absolute;
+    top: 196px;
+    left: 295px;
+
+}
