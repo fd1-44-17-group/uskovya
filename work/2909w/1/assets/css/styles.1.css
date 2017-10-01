@@ -1,0 +1,20 @@
+body {
+    background-color: #ededed;
+}
+
+
+.knopka {
+    width: 100px;
+    height: 50px;
+    display: block;
+    border: solid black 1px;
+    background-color: white;
+    position: fixed;
+    left: 50px;
+    top: 200px;
+    text-align: center;
+    padding-bottom: 14px;
+}
+
+.right {
+    margin-left: 200px}

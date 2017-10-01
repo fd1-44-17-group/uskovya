@@ -1,0 +1,154 @@
+.layer1 {
+    border: solid 1px #BF9F30;
+    background-color: #BF9F30;
+    width: 150px;
+    height: 80px;
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    border-radius: 20px
+}
+
+.layer2 {
+    border: solid 1px #BF9F30;
+    background-color: #BF9F30;
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 85px;
+    left: 40px;
+    border-radius: 20px
+}
+
+.layer3 {
+    border: solid 1px white;
+    background-color: #EFEFEF;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 120px;
+    left: 90px;
+    border-radius: 7px
+}
+
+.layer4 {
+    border: solid 1px white;
+    background-color: #EFEFEF;
+    width: 430px;
+    height: 300px;
+    position: absolute;
+    top: 133px;
+    left: 75px;
+    border-radius: 7px
+}
+
+.layer5 {
+    border: solid 1px white;
+    background-color: #EFEFEF;
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    top: 150px;
+    left: 65px;
+    border-radius: 7px
+}
+
+
+
+.layer6 {
+    border: solid 1px #FFC600;
+    background-color: #FFC600;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 185px;
+    left: 40px;
+    border-radius: 20px
+}
+
+
+.left {
+
+    border: solid 1px #FF4540;
+    background-color: #FF4540;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    border-radius: 20px
+}
+
+.center {
+
+    border: solid 1px #FF9200;
+    background-color: #FF9200;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    border-radius: 20px
+}
+
+.right {
+
+    border: solid 1px #7FB92E;
+    background-color: #7FB92E;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 5px;
+    left: 35px;
+    border-radius: 20px
+}
+
+
+.top {
+    border: solid 1px #C6C6C6;
+    background-color: #C6C6C6;
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 20px
+}
+
+.midle {
+    border: solid 1px #C6C6C6;
+    background-color: #C6C6C6;
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    top: 12px;
+    right: 5px;
+    border-radius: 20px
+}
+
+.bottom {
+    border: solid 1px #C6C6C6;
+    background-color: #C6C6C6;
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    top: 19px;
+    right: 5px;
+    border-radius: 20px
+}
+
+
+
+
+
+.layer3:hover {
+   left: 390px; 
+}
+
+.layer4:hover {
+   left: 390px; 
+}
+
+.layer5:hover {
+   left: 390px; 
+}
