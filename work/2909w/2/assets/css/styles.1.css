@@ -1,0 +1,59 @@
+body {
+    background-color: #22896a;
+}
+
+.fon {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
+.block1 {
+    border: solid 5px;
+    width: 80vw;
+    height: 70vh;
+    position: absolute;
+    top: 10vw;
+    left: 5vh;
+}
+
+.red {
+    background-color: red;
+    border: solid 5px;
+    position: absolute;
+    width: 20vw;
+    height: 20vh;
+    left: 10vw;
+    top: 45vh;
+}
+
+.blue {
+    background-color: blue;
+    border: solid 5px;
+    position: absolute;
+    width: 20vw;
+    height: 35vh;
+    left: 10vw;
+    top: 5vh;
+}
+
+.green {
+    background-color: green;
+    border: solid 5px;
+    position: absolute;
+    width: 40vw;
+    height: 35vh;
+    left: 35vw;
+    top: 5vh;
+}
+
+.yellow {
+    background-color: yellow;
+    border: solid 5px;
+    position: absolute;
+    width: 40vw;
+    height: 20vh;
+    left: 35vw;
+    top: 45vh;
+}

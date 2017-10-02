@@ -1,0 +1,26 @@
+body{
+    background-color: #8FCDA6
+}
+
+.class1 {
+    width: 200px;
+    height: 200px;
+    background-color: #F5C304;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 100px;
+    
+}
+
+.class2 {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 100px;
+    
+}
+
