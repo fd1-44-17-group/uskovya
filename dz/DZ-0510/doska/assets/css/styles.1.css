@@ -1,0 +1,28 @@
+.str1 {
+    left: 8vw;
+    width: 80vw;
+    height: 10vw;
+    position: relative;
+    background-image: repeating-linear-gradient(to left, black 0vw, black 10vw, white 10vw, white 20vw);
+}
+
+.str2 {
+    left: 8vw;
+    width: 80vw;
+    height: 10vw;
+    position: relative;
+    background-image: repeating-linear-gradient(to right, black 0vw, black 10vw, white 10vw, white 20vw);
+}
+
+.topbot{
+    width: 96vw;
+    height: 8vw;
+    position: relative;    
+    
+    
+}
+
+.chess-table {
+    border: solid;
+    
+}

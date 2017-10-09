@@ -24,6 +24,7 @@ div div :nth-child(odd) {
 }
 
 
+
 /*Клетки*/
 
 div div:nth-of-type(2n+2) div:nth-child(2n+1) {
@@ -64,6 +65,9 @@ div div:nth-of-type(n+2):nth-of-type(-n+9) div:nth-child(3):after {
     display:block;
     
 }
+
+
+
 
 div div:nth-of-type(n+2):nth-of-type(-n+9) div:nth-child(8):after {
     content: '';

@@ -1,0 +1,16 @@
+.block {
+    background-image: radial-gradient( #000 40px, #ffb60f 40px);
+    position: absolute;
+    display: block;
+    width: 180px;
+    height: 180px;
+    left: 100px;
+    top: 100px;
+    border-radius: 100px;
+
+}
+
+body {
+    background-color: #81c18f;
+
+}
