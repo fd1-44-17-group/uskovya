@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> </title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="assets/css/styles1.css" type="text/css" />
+</head>
+<script>
+    var surname = prompt('Введите вашу фамилию');
+    var name = prompt('Введите ваше имя');
+    var otch = prompt('Введите ваше отчество');
+    var age = prompt('Введите ваш возраст');
+    var p = ' ';
+
+    alert(surname + p + name + p + otch);
+    // alert(surname + ' ' + name + ' ' + otch);
+
+
+    if (isFinite(age)) {
+        if (age < 200) {
+            alert('Вам ' + age + ' лет');
+        }
+        else if (age > 200) {
+            alert('Столько не живут :) ');
+
+        }
+    }
+    else {
+        alert('Некорректный возраст (введите возраст цифрами)');
+
+    }
+</script>
+
+
+<body>
+
+
+</body>
+
+</html>
