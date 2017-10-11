@@ -1,0 +1,51 @@
+.block {
+    background-image:linear-gradient(to right, black, white); 
+    position: relative; 
+    display: block;
+    width:40px;
+    height:40px;
+    left:40px;
+    top:40px;
+    border: solid 10px yellow;
+    outline: solid 10px green;
+    box-shadow: inset 0 0 0 10px; 
+}
+
+
+.block:before {
+    position: absolute;
+    display: block;
+    content: '';
+    border: solid 10px blue;
+    left:-30px;
+    top:-30px;
+    width:80px;
+    height:80px;
+    
+}
+
+.block:after {
+    position: absolute;
+    display: block;
+    content: '';
+    border: solid 10px red;
+    left:-40px;
+    top:-40px;
+    width:100px;
+    height:100px;
+    
+}
+
+h1 {
+    
+    /*text-shadow: 1px 1px 2px red;
+    box-shadow: 0 0 100px 30px red;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin: 50px;*/
+    color: rgba(0, 0, 0, 0.4);
+    text-shadow: 1px 4px 6px #fff,
+                 0 0 0 #000;
+    font-size: 100pt;
+}
