@@ -1,0 +1,126 @@
+label {
+    cursor: pointer;
+    opacity: hidden;
+    
+}
+
+.block {
+    margin-top: 40px;
+    display: block;
+    position: absolute;
+    width: 450px;
+    height: 281px;
+    transition: .3s;
+    overflow: hidden;
+    
+    
+    
+}
+#check_lable{
+    display: none;
+}
+
+#_1:checked ~ .block{
+    background-image: url(../images/1.jpg);
+    
+}
+
+#_2:checked ~ .block{
+    background-image: url(../images/2.jpg);
+    
+}
+
+#_3:checked ~ .block{
+    background-image: url(../images/3.jpg);
+    
+}
+
+#_4:checked ~ .block{
+    background-image: url(../images/4.jpg);
+    
+}
+
+#_5:checked ~ .block{
+    background-image: url(../images/5.jpg);
+    
+}
+
+.slider-button{
+    display: block;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+
+#_1 {
+    display: block;
+    position: absolute;
+    top: 300px;
+    left: 180px;
+    z-index: 1;
+    
+}
+
+#_2 {
+    display: block;
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    z-index: 1;
+    
+}
+
+#_3 {
+    display: block;
+    position: absolute;
+    top: 300px;
+    left: 220px;
+    z-index: 1;
+    
+}
+
+#_4 {
+    display: block;
+    position: absolute;
+    top: 300px;
+    left: 240px;
+    z-index: 1;
+    
+}
+
+#_5 {
+    display: block;
+    position: absolute;
+    top: 300px;
+    left: 260px;
+    z-index: 1;
+    
+}
+
+ 
+    
+    
+.strel1{
+	display: block;
+	width: 0;
+	height: 0;
+	border-top:  10px solid transparent;
+	border-bottom:  10px solid transparent;
+	border-right: 20px solid grey;
+	position: absolute;
+	top:170px;
+	left: 20px;
+}
+
+    
+.strel2{
+	display: block;
+	width: 0;
+	height: 0;
+	border-top:  10px solid transparent;
+	border-bottom:  10px solid transparent;
+	border-left: 20px solid grey;
+	position: absolute;
+	top:170px;
+	left: 428px;
+}
